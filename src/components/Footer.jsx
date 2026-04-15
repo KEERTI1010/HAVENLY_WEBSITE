@@ -1,7 +1,7 @@
 import img1 from "../assets/Brand_logo_2.png";
 import img2 from "../assets/Facebook.png";
 import img3 from "../assets/Instagram.png";
-import img4 from "../assets/Linkedin.png";
+import img4 from "../assets/LinkedIn.png";
 import img5 from "../assets/YouTube.png";
 
 function Footer (){
