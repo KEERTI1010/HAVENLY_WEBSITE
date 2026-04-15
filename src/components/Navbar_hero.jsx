@@ -8,16 +8,16 @@ import img5 from "../assets/4 dots_2.png";
 function Navbar_hero (){
     return(
         <div className="font-sans relative bg-white  text-white">
-            <div className="w-[1521.5px] h-[1084px] bg-cover" style={{ backgroundImage:`url(${img1})`}}>
+            <div className="relative w-full min-h-screen bg-cover bg-center" style={{ backgroundImage:`url(${img1})`}}>
                 
                 <div className=" flex  items-center justify-between text-white ">
 
-                    <div className="flex items-center gap-3.5 ml-13 pt-2">
-                        <img src={img2} className="h-[80px] w-[80px]"></img>
-                        <h1 className="text-[40px] font-medium">Havenly</h1>
+                    <div className="flex items-center gap-[5%] ml-[6.5vh] pt-[1vw]">
+                        <img src={img2} className="w-[5.2vw]"></img>
+                        <h1 className="text-[3.5vw] font-medium">Havenly</h1>
                     </div>
                     
-                    <div className="flex items-center gap-[80px] mt-4 text-[16px] ">
+                    <div className="flex items-center gap-[6vw] mt-[2vh] text-[1.1vw] ">
                         <h3 className="">Properties</h3>
                         <h3>About</h3>
                         <h3>Why Heavenly</h3>
@@ -25,68 +25,68 @@ function Navbar_hero (){
                         <h3>Contact</h3>
                     </div>
 
-                    <div className="flex items-center gap-3.5 mr-11 mt-2 pt-2">
-                        <img src={img3}></img>
-                        <button className="bg-white rounded-4xl text-black p-3 pl-5 pr-5 text-[18px]">Book Now</button>
+                    <div className="flex items-center gap-[1vw] mr-[5vh] mt-[1vh] pt-[1vw]">
+                        <img src={img3} className="w-[3.5vw]"></img>
+                        <button className="bg-white rounded-[4vw] text-black p-[1vw] px-[1.3vw]  text-[1.2vw]">Book Now</button>
                     </div>
 
                 </div>
 
-                <div className="ml-[1040px] rounded-3xl mr-33  backdrop-blur-md p-6 mt-[80px] border-t-2 border-b-2 border-white">
+                <div className="ml-[68vw] rounded-[3vw] mr-[15vh] w-[23vw] h-[15vw] backdrop-blur-md p-[2vw] mt-[7vw] border-t-2 border-b-2 border-white">
                     <div flex>
-                        <h1 className="text-[23px] leading-11">The Skyline Residence</h1>
-                        <p className="text-[14px] leading-4">Breath taking Views, smart home features, and spaces designed for your lifestyle</p>
+                        <h1 className="text-[1.5vw] leading-[3vw]">The Skyline Residence</h1>
+                        <p className="text-[1vw] leading-[1vw]">Breath taking Views, smart home features, and spaces designed for your lifestyle</p>
                     </div>
-                    <div className="flex items-center justify-between mt-8">
-                        <button className="bg-white text-black p-2 pl-3 pr-3 text-[14px] rounded-4xl ">Explore This Home</button>
-                        <img src={img5} className="w-[46px] mr-2 "></img>
+                    <div className="flex items-center justify-between mt-[3vh] gap-[2vw]">
+                        <button className="bg-white text-black p-[0.5vw] px-[1.1vw] text-[1vw] rounded-[4vw] whitespace-nowrap">Explore This Home</button>
+                        <img src={img5} className="w-[20%] mr-[1vh] "></img>
                         </div>
                     </div>
 
-                <div className="ml-13">
+                <div className="ml-[6.5vh]">
                     <div>
-                        <h1 className="text-[90px]  font-semibold leading-[0.3]">Find a home that</h1>
-                        <h1 className="text-[90px] font-semibold ">feels like Haven</h1>
+                        <h1 className="text-[6.5vw]  font-semibold leading-[1vw]">Find a home that</h1>
+                        <h1 className="text-[6.5vw] font-semibold ">feels like Haven</h1>
                     </div>
 
-                    <div className="flex items-center gap-7">
-                        <button className="bg-white rounded-4xl text-black p-3 pl-5 pr-5 text-[18px] ">View Available Properties</button>
-                        <button className="border-2 rounded-4xl p-3 pl-5 pr-5 border-white text-[18px]">Start Your Home Journey</button>
+                    <div className="flex items-center gap-[2vw]">
+                        <button className="bg-white rounded-[4vw] text-black p-[1vw] px-[1.5vw] text-[1.2vw] ">View Available Properties</button>
+                        <button className="border-2 rounded-[4vw] py-[1vw] px-[1.5vw] border-white text-[1.2vw]">Start Your Home Journey</button>
                     </div>
 
-                    <div className="flex items-center mt-16 gap-3 text-[19.5px]">
+                    <div className="flex items-center mt-[6vw] gap-[1vw]  text-[1.3vw]">
                         <img src={img4}></img>
                         <p>Trusted by families , first-time buyers , and professionals across the city.</p>
                     </div>
                 </div>
 
-                <h1 className="ml-10 mr-13 text-[330px] font-bold text-[#C9E513] ">Havenlv..</h1>
+                <h1 className="text-[24vw] text-center font-bold text-[#C9E513] ">Havenlv</h1>
             </div>
 
-            <div className="flex items-center justify-between text-black ml-13 mr-13 mt-25 mb-25 gap-14">
-                <div className="flex items-center gap-2">
-                    <h2 className="text-[60px] font-semibold">500+</h2>
-                    <h3 className="text-[19px] text-[#6C6868] font-medium leading-5">HOME SOLD & RENTED</h3>
+            <div className="flex items-center justify-between text-black ml-[6.5vh] mr-[6.5vh] mt-[13vh] mb-[13vh] gap-[3vw]">
+                <div className="flex items-center gap-[1vw]">
+                    <h2 className="text-[4vw] font-semibold">500+</h2>
+                    <h3 className="text-[1.2vw] text-[#6C6868] font-medium leading-[1.5vw]">HOME SOLD & RENTED</h3>
                 </div>
 
-                <div className="flex items-center gap-2">
-                    <h2 className="text-[60px] font-semibold">98%</h2>
-                    <h3 className="text-[19px] text-[#6C6868] font-medium leading-5">CUSTOMER SATISFACTION RATE</h3>
+                <div className="flex items-center gap-[1vw]">
+                    <h2 className="text-[4vw] font-semibold">98%</h2>
+                    <h3 className="text-[1.2vw] text-[#6C6868] font-medium leading-[1.5vw]">CUSTOMER SATISFACTION RATE</h3>
                 </div>
 
-                <div className="flex items-center gap-2">
-                    <h2 className="text-[60px] font-semibold">10+</h2>
-                    <h3 className="text-[19px] text-[#6C6868] font-medium leading-5">YEARS OF LOCAL MARKET EXPERTISE</h3>
+                <div className="flex items-center gap-[1vw]">
+                    <h2 className="text-[4vw] font-semibold">10+</h2>
+                    <h3 className="text-[1.2vw] text-[#6C6868] font-medium leading-[1.5vw]">YEARS OF LOCAL MARKET EXPERTISE</h3>
                 </div>
 
-                <div className="flex items-center gap-2">
-                    <h2 className="text-[60px] font-semibold">300+</h2>
-                    <h3 className="text-[19px] text-[#6C6868] font-medium leading-5">HAPPY FAMILIES SERVED</h3>
+                <div className="flex items-center gap-[1vw]">
+                    <h2 className="text-[4vw] font-semibold">300+</h2>
+                    <h3 className="text-[1.2vw] text-[#6C6868] font-medium leading-[1.5vw]">HAPPY FAMILIES SERVED</h3>
                 </div>
 
             </div>
 
-            <div className="border-1 border-gray-400 mx-13 mt-25 mb-30"></div>
+            <div className=" border-gray-400 border  mx-[6.5vh] mt-[14vh] mb-[15vh]"></div>
                 
         </div>
     );
